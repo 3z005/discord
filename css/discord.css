@@ -1,0 +1,52 @@
+* {
+    outline: 1px dashed black;
+    background-color: rgb(51, 51, 51);
+}
+.head {
+    font-size: 10px;
+    color: #acaaaa;
+}
+.verticalmenu {
+    width: 50px;
+    display: flex;
+}
+.verticalmenu a {
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.verticalmenu a:hover {
+    background-color: rgb(106, 107, 107);
+}
+.verticalmenu a.active {
+    color: white;
+}
+.yes {
+    width: 40px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.topnav {
+    width: 800px;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topnav a {
+    float: left;
+    color: #c8c6c6;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.topnav a:hover {
+    color: whitesmoke;
+}
+.d {
+    background-color: rgb(3, 118, 3);
+}
